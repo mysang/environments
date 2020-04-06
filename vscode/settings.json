@@ -1,0 +1,32 @@
+{
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.rulers": [
+    100
+  ],
+  "editor.insertSpaces": true,
+  "[php]": {
+    "editor.tabSize": 4
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.tabSize": 2
+  },
+  "liveshare.presence": true,
+  "diffEditor.ignoreTrimWhitespace": false
+}
