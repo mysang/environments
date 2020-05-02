@@ -27,6 +27,10 @@
   "[yaml]": {
     "editor.tabSize": 2
   },
+  "files.associations": {
+    "*.blade.php": "php"
+  },
+  "blade.format.enable": true,
   "liveshare.presence": true,
   "diffEditor.ignoreTrimWhitespace": false
 }
