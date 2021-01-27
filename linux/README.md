@@ -89,6 +89,6 @@
 8. If prompted, confirm your GitHub password.
 
 # Disable SELinux Permanently
-`vi /etc/sysconfig/selinux`
-`SELINUX=disabled`
-`sestatus`
+`vi /etc/sysconfig/selinux`  
+`SELINUX=disabled`  
+`sestatus`  
