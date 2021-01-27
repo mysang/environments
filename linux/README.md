@@ -87,3 +87,8 @@
 6. Paste your key into the "Key" field.
 7. Click Add SSH key.
 8. If prompted, confirm your GitHub password.
+
+# Disable SELinux Permanently
+`vi /etc/sysconfig/selinux`
+`SELINUX=disabled`
+`sestatus`
