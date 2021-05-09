@@ -92,3 +92,9 @@
 `vi /etc/sysconfig/selinux`  
 `SELINUX=disabled`  
 `sestatus`  
+
+# Change Port on Centos
+`firewall-cmd --get-active-zones`
+`firewall-cmd --zone=public --add-port=80/tcp --permanent`
+`firewall-cmd --zone=dmz --add-port=80/tcp --permanent`
+`firewall-cmd --reload`
