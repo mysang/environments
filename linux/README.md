@@ -98,3 +98,16 @@
 `firewall-cmd --zone=public --add-port=80/tcp --permanent`  
 `firewall-cmd --zone=dmz --add-port=80/tcp --permanent`  
 `firewall-cmd --reload`
+
+# Extend ổ cứng trên centos
+- fdisk /dev/sda;
+- Nhấn d - > 2
+- Nhấn n - > p -> 2 , sau đó enter 2 lần
+- Nhấn w
+- reboot;
+- Đăng nhập lại:
+- pvresize /dev/sda2;
+- lvextend /dev/mapper/centos-root -l +100%FREE;
+- xfs_growfs /dev/mapper/centos-root;
+Xong.  
+Kiểm tra lại chạy: lsblk
