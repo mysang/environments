@@ -109,5 +109,6 @@
 - pvresize /dev/sda2;
 - lvextend /dev/mapper/centos-root -l +100%FREE;
 - xfs_growfs /dev/mapper/centos-root;
+
 Xong.  
 Kiểm tra lại chạy: lsblk
